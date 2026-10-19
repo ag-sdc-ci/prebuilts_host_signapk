@@ -1,0 +1,6 @@
+shadow prebuilt repo: signapk (host)
+  package: android-signapk 17.0.0-1 (PKGBUILD build, any)
+  upstream: platform/build (branch: main, tools/signapk)
+  api-level: universal (JVM bytecode host tool, Android 17 / API 37 baseline)
+  layout: .pkg.tar.zst blob at root, lib64/signapk.jar, bin/signapk; Android.bp providing signapk
+  date: 2026-10-19

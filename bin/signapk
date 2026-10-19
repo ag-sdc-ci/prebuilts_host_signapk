@@ -1,0 +1,2 @@
+#!/bin/sh
+exec java -cp "/usr/share/java/signapk/signapk.jar:/usr/share/java/apksig/*:/usr/share/java/bouncycastle/*:/usr/share/java/conscrypt/*" com.android.signapk.SignApk "$@"
